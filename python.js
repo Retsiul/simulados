@@ -170,6 +170,7 @@ import matplotlib.pyplot as plt
     correta: "4",
     gabarito: `A alternativa correta  ✅
 
+    <img style="width='s50%'" src="9questão.png"/>
 Ela contém todas as etapas necessárias:
 
 <strong>1. Carrega a base Iris:</strong>
