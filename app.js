@@ -74,9 +74,12 @@ function mostrarQuestoes(materia) {
             renderizarQuestao(
               `<p
               style="display:flex;
+                 flex-direction:column;
+                 gap:10px;
+                 line-height:32px;
               width:fit-content;
               border:solid 1px blue;
-                padding: 10px 16px;">✓ Correto! A resposta é ${letraCorreta}</p>`,
+                padding: 10px 16px;">✓ Correto! A resposta é ${letraCorreta}</br>${questao.gabarito} </p>`,
             );
           } else {
             questao.respostasErradas.push(resposta);
@@ -86,6 +89,7 @@ function mostrarQuestoes(materia) {
             renderizarQuestao(
               `<p
               style="display:flex;
+              flex-direction:column;
               width:fit-content;
               border:solid 1px red;
                 padding: 10px 16px;">
