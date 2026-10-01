@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 247, 239);
+}
+
+.materias button {
+    padding: 10px 16px;
+    border-radius: 8px;
+
+}
+
+#btnMatematica:focus {
+    background-color: aliceblue;
+}
+
+#btnPortugues:focus {
+    background-color: bisque;
+}
+
+#btnHistoria:focus {
+    background-color: burlywood;
+}
+
+.container {
+    width: 90%;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+
+    button {
+        width: fit-content;
+        padding: 10px 16px;
+        border-radius: 16px;
+        border: solid 1px rgba(0, 0, 0, 0.10);
+    }
+
+
+}
