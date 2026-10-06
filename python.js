@@ -22,7 +22,7 @@ const portugues = [
     opcoes: ["2/3", "3/4", "4/3", "1/3 x 1/4", "11/12"],
     correta: "5",
     gabarito:
-      "Aqui é mais fácil calcular pelo complementar.<br/>1. Probabilidade de Carlos não resolver<br/>Carlos resolve:<br/>2/3<br/>Então, não resolve:<br/>1-2/3=1/3<br/>2. Probabilidade de Joana não resolver<br/>Joana resolve:<br/>3/4<br/>Então, não resolve:<br/>1-3/4=1/4<br/>3. Os dois não resolveremComo são independentes:<br/>1/3 x 1/4 = 1/12<br/>4. Pelo menos um resolver<br/>O problema será solucionado se Carlos ou Joana resolver.<br/>1-1/12=11/12<br/><br/>✅ Resposta: 12/11",
+      "Aqui é mais fácil calcular pelo complementar.<br/>1. Probabilidade de Carlos não resolver<br/>Carlos resolve:<br/>2/3<br/>Então, não resolve:<br/>1-2/3=1/3<br/>2. Probabilidade de Joana não resolver<br/>Joana resolve:<br/>3/4<br/>Então, não resolve:<br/>1-3/4=1/4<br/>3. Os dois não resolveremComo são independentes:<br/>1/3 x 1/4 = 1/12<br/>4. Pelo menos um resolver<br/>O problema será solucionado se Carlos ou Joana resolver.<br/>1-1/12=11/12<br/><br/>✅ Resposta: 11/12",
   },
 
   {
@@ -287,5 +287,42 @@ f(x) =
     gabarito: "",
   },
 
-  { pergunta: "", opcoes: "", correta: "", gabarito: "" },
+  {
+    pergunta: `A variável aleatória contínua X tem a seguinte função de densidade de probabilidade
+    <p>
+f(x) =
+</p>
+
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;── + k, &nbsp;se 0 ≤ x ≤ 3<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0, &nbsp;para todos os outros valores de x
+</p>
+
+<p>Sendo <strong>k</strong> uma constante, seu valor é igual a:`,
+    opcoes: ["1", "3/4", "2/3", "5/24", "1/12"],
+    correta: "4",
+    gabarito: `
+<p>
+∫₀³ (x/12 + k) dx = 1
+</p>
+
+<p>
+9/24 + 3k = 1
+</p>
+
+<p>
+3/8 + 3k = 1
+</p>
+
+<p>
+3k = 5/8
+</p>
+
+<p>
+<strong>k = 5/24</strong>
+</p>`,
+  },
 ];
